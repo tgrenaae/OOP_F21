@@ -92,11 +92,19 @@ public class Student {
 
     //Fill the comments
 
-
+    /**
+     * Setter for the {@link session11Tommy.University} where the student is attending.
+     * @param university, an {@code University} enum value specifying the University where the {@code Student} is attending.
+     */
     public void setUniversity(University university) {
         this.university = university;
     }
 
+
+    /**
+     * Getter for the {@link University} where the student is attending.
+     * @return an {@code University} enum value representing the University that the {@code Student} is attending.
+     */
     public University getUniversity() {
         return university;
     }
